@@ -25,7 +25,7 @@ script:
   - echo "A continuación se muestra el resultado de la ejecución:"
   - gradle  run
 ##  - ./gradlew sonarqube  #  -Dsonar.organization=jamj2000-github   -Dsonar.host.url=https://sonarcloud.io 
-#after_success:
+after_success:
   - bash <(curl -s https://codecov.io/bash)
 
 
