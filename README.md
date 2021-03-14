@@ -280,7 +280,7 @@ Para ello pulsamos en **Fuente -> Inspect**.
 
 ![](img/inspect1.0.png)
 
-En **Scope** podemos escoger entre cuatro ámbitos, de más general a más específico:
+En **Scope** podemos escoger entre cuatro ámbitos, de más general a más específico
 
 - Open Projects
 - Current Project
