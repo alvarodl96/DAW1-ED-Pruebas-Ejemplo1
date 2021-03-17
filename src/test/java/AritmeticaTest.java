@@ -17,6 +17,7 @@ public class AritmeticaTest {
         assertEquals("Suma (-2, 2) debe ser  0",  0, Aritmetica.suma(-2, 2));
         assertEquals("Suma ( 0,-3) debe ser -3", -3, Aritmetica.suma( 0,-3));
         assertEquals("Suma (-3,-3) debe ser -6", -6, Aritmetica.suma(-3,-3));
+        //assertEquals("suma (2,2) debe ser 4", 3, Aritmetica.suma(2,2));
     }
 
     @Test
@@ -45,6 +46,15 @@ public class AritmeticaTest {
         assertEquals("División ( 0,-3) debe ser    0",     0, Aritmetica.division( 0,-3), 0.001);
         assertEquals("División (-3,-3) debe ser    1",     1, Aritmetica.division(-3,-3), 0.001);
     }
-
+    
+	@SuppressWarnings("deprecation")
+	@Test
+    public void testPotencia() {
+    	assertEquals("Potencia (2,3) debe ser 8", 8, Aritmetica.potencia(2, 3));
+    	assertEquals("Potencia (4,2) debe ser 16", 16, Aritmetica.potencia(4, 2));
+    	assertEquals("Potencia (3,2) debe ser 9", 9, Aritmetica.potencia(3, 2));
+    	assertEquals("Potencia (10,2) debe ser 100", 100, Aritmetica.potencia(10, 2));
+    	
+    }
 }
 

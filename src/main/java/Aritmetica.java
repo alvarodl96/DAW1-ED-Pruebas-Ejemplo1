@@ -17,6 +17,10 @@ public class Aritmetica {
   public static float division (int dividendo, int divisor) {
         return (float)(dividendo/(float)divisor);
   }
+  
+  public static int potencia (double base, double exponente) {
+	  return (int)Math.pow(base,exponente);
+  }
 
 }
 
