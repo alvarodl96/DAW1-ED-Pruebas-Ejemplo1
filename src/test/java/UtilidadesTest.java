@@ -9,12 +9,12 @@ import static org.junit.Assert.*;
 
 
 
-public class UtilidadesTest {
+public class UtilidadesTest{
     // número de casos de prueba
-    private int n; 
+    private int n,min,max; 
     // rango de números
-    private int min;
-    private int max;
+    //private int min;
+    //private int max;
     
     @BeforeClass
     public static void setUpClass() { 
